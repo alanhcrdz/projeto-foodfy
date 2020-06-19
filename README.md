@@ -1,7 +1,7 @@
 ## Foodfy
 
-![Design preview](`assets/design/home.png`)
-![Mobile preview](`assets/design/mobile.png`)
+![Design preview](`./assets/design/home.png`)
+![Mobile preview](`./assets/design/mobile.png`)
 
 ### Site fictício de uma empresa de receitas, proposto pela Rocketseat em seu curso Launchbase
 

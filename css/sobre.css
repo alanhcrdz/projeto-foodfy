@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+
+
+
+
+#sobre {
+    max-width: 940px;
+     width: 100%;
+     margin: auto;
+}
+#sobre h2 {
+    margin: 50px 0 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+#sobre p {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 30px;
+    }
+    
+

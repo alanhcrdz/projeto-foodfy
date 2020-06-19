@@ -1,0 +1,171 @@
+@media screen and (max-width: 1024px){
+    
+    
+       footer {
+       margin-top: 30px;
+    
+       }
+       footer p {
+           font-size: 13px;
+       }
+    
+  
+
+    
+}
+
+@media screen and (max-width: 768px){
+    
+  
+    .container {
+        max-width: 768px;
+        width: 100%;
+        height: auto;
+
+    }
+    
+    .main-box,.main-box .image img, .wrapper, .cards, header {
+        max-width: 768px;
+        width: 90%;
+    }
+
+    .card-txt h3 {
+        font-size: 15px;
+    }
+        nav ul {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    header h2 {
+        margin: 36px 0 0 8px;
+    }
+    
+    nav ul {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .txt-box{
+        max-width: 768px;
+         width: 90%;
+         margin: auto;
+    }
+    
+    footer {
+        margin-top: 30px;
+
+    
+       }
+
+}
+
+@media screen and (max-width: 425px){
+    
+
+    body, html {
+        height: auto
+    }
+    .container {
+        max-width: 425px;
+        width: 100%;
+        height: auto;
+        position: relative;
+
+    }
+
+    header{
+        max-width: 425px;
+        width: 100%;
+
+    }
+
+    header nav {
+        width: 100%;
+        flex-direction: column;
+    }
+    nav ul {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li {
+        margin: auto;
+        line-height: 30px;
+        text-align: center;
+    }
+    nav ul li a {
+        margin-left: 0;
+
+       }
+
+       .main-box {
+           width: 90%;
+           max-width: 425px;
+           height: 450px;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+       }
+
+       .main-box h2 {
+           max-width: 425px;
+           margin-right: 0;
+       }
+
+       .wrapper {
+           justify-content: center;
+           align-items: center;
+       }
+
+       .cards {
+           grid-template-columns: 1fr ;
+           row-gap: 30px;
+       }
+       .card-txt {
+           text-align: center;
+           margin-bottom: 80px;
+           
+       }
+       .card-txt h3 {
+        font-size: 16px;
+       }
+       
+       
+      footer {
+          margin-top: 30px;
+      }
+       
+       footer p {
+           font-size: 13px;
+       }
+    
+       .txt-box{
+        max-width: 425px;
+         width: 90%;
+         margin: auto;
+    }
+
+    #sobre h2 {
+        text-align: center;
+    }
+    #sobre p {
+        text-align: justify;
+    }
+    
+    .modal-image {
+        max-width: 425px;
+    }
+    .modal-image img {
+        display: block;
+        margin: 30px auto;
+        width: 80%;
+        object-fit: contain;
+    }
+    
+
+    
+}

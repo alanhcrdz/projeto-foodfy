@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.container {
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+body,html {
+    height: 100%;
+
+}
+header {
+    max-width: 940px;
+     width: 100%;
+     margin: auto;
+
+     
+     
+}
+header h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin: 36px 0 0 8px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul {
+    
+    display: flex;
+    width: 100%;
+    margin: 36px 0 0 122px;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    
+}
+nav ul li a {
+    font-family: 'Roboto',serif;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+}
+
+.main-box {
+    border-radius: 30px;
+    background-color: #FBDFDB;
+    width: 940px;
+    height: 366px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-box h2 {
+    max-width: 305px;
+    width: 100%;
+    font-size: 32px;
+}
+.main-box p {
+    max-width: 316px;
+    width: 100%;
+    opacity: 0.7;
+}
+
+#dashboard {
+    width: 100%;
+    margin-top: 50px auto;
+}
+
+.wrapper h2 {
+    margin-bottom: 20px;
+}
+.wrapper {
+    max-width: 940px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin: auto;
+}
+.cards {
+    max-width: 940px;
+     width: 100%;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 92px;
+
+} 
+.card {
+    cursor: pointer;
+}
+
+.image-content img{
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-txt h3 {
+    font-size: 18px;
+    line-height: 36px;
+}
+.card-txt p  {
+    font-size: 14px;
+    color: #777777;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    height: 62px;
+    background-color: #EEEEEE;
+
+
+}
+footer p {
+display: flex;
+justify-content: center;
+align-items: center;
+color: #999999;
+font-size: 14px;
+}
+

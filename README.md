@@ -7,7 +7,7 @@
 ![Mobile preview](./assets/design/mobile.jpg)
 
 ### Site fictício de uma empresa de receitas, proposto pela Rocketseat em seu curso Launchbase
-![Website preview](https://projeto-foodfy.alanhcrdz.vercel.app/)
+[Website preview](https://projeto-foodfy.alanhcrdz.vercel.app/)
 
 
  Neste projeto, foram praticadas as mais variadas técnicas do Front End, irei listar algumas;
@@ -41,6 +41,15 @@ for (const card of cards) {
 
 }
 ```
+
+# Atualização:
+
+- Refatoração da página para o Back End.
+- Utilização da Template Engine Nunjucks.
+- Agora as informações são requisitadas no servidor.
+- Criado uma nova página onde é detalhado as receitas.
+- Retirado a função de modal para interação da página de receitas de forma dinâmica.
+
 
 - Projeto compatível com vários dispositivos. 
 

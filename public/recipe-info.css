@@ -1,0 +1,156 @@
+/* ==== RECIPE INFO ==== */
+
+    main {
+        height: 1400px;
+    }
+.recipe-image {
+    max-width: 940px;
+    height: 280px;
+    display: block;
+    margin: 5% auto;
+
+   
+
+}
+.recipe-image a {
+width: 80px;
+text-decoration: none;
+font-size: 26px;
+font-weight: bold;
+line-height: 42px;
+display: block;
+color: black;
+margin: 10px auto;
+text-align: center;
+
+
+}
+.recipe-image a:hover {
+ color: #FBDFDB;
+ transition: 0.4s;
+    }
+
+.recipe-image img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+
+.recipe-txt {
+    text-align: center;
+}
+
+.recipe-txt h3 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.recipe-txt p {
+    font-size: 20px;
+    color: #777777;
+    line-height: 24px;
+}
+
+.recipe-description {
+    max-width: 940px;
+    margin-top: 30px;
+    margin-left: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+.recipe-description h3 {
+    margin: auto;
+    font-size: 24px;
+    text-align: left;
+    
+
+}
+
+.recipe-description span {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #999;
+    margin-left: 12px;
+    cursor: pointer;
+    flex: 1;
+
+  
+}
+.recipe-list {
+    max-width: 940px;
+    margin-left: 230px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.recipe-list ul {
+    max-width: 940px;
+    display: block;
+    list-style-position: inside;
+    
+
+}
+.recipe-list ul li {
+    color: #444;
+    font-size: 18px;
+    line-height: 28px;
+}
+.preparation {
+    max-width: 940px;
+    margin-top: 30px;
+    margin-left: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    max-width: 940px;
+    margin-top: 30px;
+    margin-left: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+/* ==== HIDE ITEMS === */
+
+.recipe-list.active {
+    display: none;
+    
+}
+
+.preparation.active {
+    display: none;
+    
+}
+
+.info.active {
+    display: none;
+    
+}
+span.toggle {
+    display: none;
+}
+
+
+
+

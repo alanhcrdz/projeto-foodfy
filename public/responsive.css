@@ -64,14 +64,16 @@
 @media screen and (max-width: 425px){
     
 
-    body, html {
-        height: auto
+    body {
+        height: 100%;
+        position: relative;
+
+
     }
     .container {
         max-width: 425px;
         width: 100%;
-        height: auto;
-        position: relative;
+
 
     }
 
@@ -85,50 +87,45 @@
         width: 100%;
         flex-direction: column;
     }
+
     nav ul {
         width: 100%;
         margin-left: 0;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     nav ul li {
         margin: auto;
         line-height: 30px;
         text-align: center;
+
     }
     nav ul li a {
         margin-left: 0;
 
        }
 
-       .main-box {
-           width: 90%;
-           max-width: 425px;
-           height: 450px;
-           justify-content: center;
-           align-items: center;
-           flex-direction: column;
-       }
+      
 
        .main-box h2 {
            max-width: 425px;
            margin-right: 0;
        }
 
-       .wrapper {
-           justify-content: center;
-           align-items: center;
-       }
+     
 
        .cards {
            grid-template-columns: 1fr ;
            row-gap: 30px;
+
+
        }
        .card-txt {
            text-align: center;
            margin-bottom: 80px;
-           
+
        }
        .card-txt h3 {
         font-size: 16px;
@@ -136,7 +133,10 @@
        
        
       footer {
+          position: absolute;
+          bottom: 0;
           margin-top: 30px;
+
       }
        
        footer p {

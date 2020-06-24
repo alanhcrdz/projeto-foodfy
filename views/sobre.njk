@@ -1,29 +1,29 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.njk" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <title>Foodfy | As melhores Receitas Para Você</title>
-</head>
+{% block head %}
+    <title>A Empresa</title>
+{% endblock head %}
 
-<body>
-    <div class="container">
-        <header>
-            <nav>
-                <h2> Foodfy</h2>
 
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href=""><b>Sobre</b></a></li>
-                    <li><a href="receitas.html">Receitas</a></li>
-                </ul>
-            </nav>
-        </header>
+{% block content %}
+
+        <div class="container">
+
+           
+            <header>
+                <nav>
+                    <h2 id="logo">Foodfy</h2>
+                        <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/sobre"><b>Sobre</b></a></li>
+                        <li><a href="/receitas">Receitas</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+
+          
+
         <section id="sobre">
             <div class="txt-box">
                 <h2>Sobre o Foodfy</h2>
@@ -77,10 +77,6 @@
 
         </section>
 
-        <footer>
-            <p>&copy; 2020. Todos os direitos reservados, Receitas Foodfy.</p>
-        </footer>
-    </div><!-- container -->
-</body>
-
-</html>
+       
+            </div><!--container-->
+{% endblock content %}

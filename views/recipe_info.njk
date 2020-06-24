@@ -1,0 +1,85 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Nossas Receitas</title>
+         <link rel="stylesheet" href="/recipe-info.css">
+         <link rel="stylesheet" href="/detail-responsive.css">
+
+{% endblock head %}
+
+{% block content %}
+
+                <header>
+                    <nav>
+                    <h2 id="logo">Foodfy</h2>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/sobre">Sobre</a></li>
+                        <li><a href="/receitas"><b>Receitas</b></a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+        <div class="recipe-image" id="{{item.id}}">
+           
+                <img src="{{item.image}}" alt="{{item.title}}">
+                <a href="/receitas">Voltar</a>
+                </div>
+            
+            <div class="recipe-txt">
+                <h3>{{item.title}}</h3>
+                <p>{{item.author}}</p>
+            </div>
+        
+            <section id="details">
+        <div class="recipe-description " >
+            <h3>Ingredientes</h3>
+            <span onclick="toggleIngredients()" class=" hide1" >Esconder</span>
+            <span onclick="toggleIngredients()" class="toggle show1" >Mostrar</span>
+        </div>
+
+        <div class="recipe-list items ">
+            <ul>
+                <li>{{item.ingredients[0]}}</li>
+                <li>{{item.ingredients[1]}}</li>
+                <li>{{item.ingredients[2]}}</li>
+                <li>{{item.ingredients[3]}}</li>
+                <li>{{item.ingredients[4]}}</li>
+                <li>{{item.ingredients[5]}}</li>
+            </ul>
+
+        </div>
+
+           <div class="recipe-description ">
+            <h3>Modo de Preparo</h3>
+            <span onclick="togglePreparation()" class=" hide2">Esconder</span>
+            <span onclick="togglePreparation()" class="toggle show2">Mostrar</span>
+            </div>
+
+        <div class="preparation items">
+                 <ul>
+                <li>{{item.preparation[0]}}</li>
+                <li>{{item.preparation[1]}}</li>
+                <li>{{item.preparation[2]}}</li>
+                <li>{{item.preparation[3]}}</li>
+                <li>{{item.preparation[4]}}</li>
+            </ul>
+
+        </div>
+        <div class="recipe-description ">
+            <h3>Informações adicionais</h3>
+             <span onclick="toggleInfo()" class=" hide3">Esconder</span>
+            <span onclick="toggleInfo()" class="toggle show3">Mostrar</span>
+
+
+
+        </div>
+
+          <div class="info items">
+              
+                  <p>{{item.information}}</p>
+
+        </div>
+        </section>
+        <script src="/script.js"></script>
+{% endblock content %}

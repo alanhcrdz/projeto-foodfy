@@ -1,0 +1,55 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Nossas Receitas</title>
+     <link rel="stylesheet" href="/receitas.css">
+{% endblock head %}
+
+{% block content %}
+    <div class="container">
+
+        <header>
+            <nav>
+                <h2 id="logo">Foodfy</h2>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="/receitas">
+                            <b>Receitas</b>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="dashboard">
+                        
+            <div class="cards">
+                    {% for item in items %}
+                    <div class="card" id="{{item.id}}">
+                        <div class="image-content">
+                            <img src="{{item.image}}" alt="{{item.title}}">
+                        </div>
+                        <div class="card-txt">
+                            <h3>{{item.title}}</h3>
+                            <p>{{item.author}}</p>
+                        </div>
+                        
+                    </div>
+                    {% endfor %}
+                    
+            </div>
+            <!-- cards -->
+                    
+        </section>
+
+     
+    </div><!--container-->
+    <script src="script.js"></script>
+
+{% endblock content %}

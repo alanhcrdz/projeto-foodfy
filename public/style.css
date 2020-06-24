@@ -7,25 +7,34 @@
     box-sizing: border-box;
     font-family: 'Roboto',sans-serif;
 }
-.container {
+
+main {
+    flex: 1 0 auto; /* allows the content to grow but not shrink */
+  }
+/* .container {
     max-width: 1920px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
 
 }
-
-body,html {
+ */
+ body {
     height: 100%;
 
-}
+
+ }
+
+  
+    
+
+
 header {
     max-width: 940px;
      width: 100%;
-     margin: auto;
+     margin:  0 auto 50px;
 
-     
-     
+
 }
 header h2 {
     font-size: 32px;
@@ -33,6 +42,7 @@ header h2 {
     margin: 36px 0 0 8px;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
+
 }
 
 header nav {
@@ -42,6 +52,7 @@ header nav {
     justify-content: flex-start;
     align-items: center;
 
+
 }
 nav ul {
     
@@ -50,6 +61,7 @@ nav ul {
     margin: 36px 0 0 122px;
     justify-content: flex-start;
     align-items: center;
+
 }
 nav ul li {
     list-style: none;
@@ -73,6 +85,8 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+
 }
 .main-box h2 {
     max-width: 305px;
@@ -86,8 +100,10 @@ nav ul li a {
 }
 
 #dashboard {
+    max-width: 940px;
+    margin: 0 auto;
     width: 100%;
-    margin-top: 50px auto;
+    position: relative;
 }
 
 .wrapper h2 {
@@ -110,6 +126,7 @@ nav ul li a {
     column-gap: 20px;
     row-gap: 92px;
 
+
 } 
 .card {
     cursor: pointer;
@@ -130,15 +147,18 @@ nav ul li a {
     color: #777777;
 }
 
-footer {
-    margin-top: 30px;
+ footer {
+    margin-top: 50px;
     padding: 20px;
     width: 100%;
     height: 62px;
     background-color: #EEEEEE;
 
+    
 
-}
+
+} 
+
 footer p {
 display: flex;
 justify-content: center;

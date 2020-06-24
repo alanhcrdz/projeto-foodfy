@@ -6,8 +6,7 @@
 ## Mobile
 ![Mobile preview](/public/assets/mobile.jpg)
 
-### Site fictício de uma empresa de receitas, proposto pela Rocketseat em seu curso Launchbase
-[Website preview](https://projeto-foodfy.alanhcrdz.vercel.app/)
+
 
 
  Neste projeto, foram praticadas as mais variadas técnicas do Front End, irei listar algumas;

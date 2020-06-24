@@ -1,7 +1,7 @@
 # Foodfy
 
 ## Design preview:
-![Design preview](./public/assets/design/home.jpg)
+![Design preview](../public/assets/design/home.jpg)
 
 ## Mobile
 ![Mobile preview](./public/assets/design/mobile.jpg)

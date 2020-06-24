@@ -1,15 +1,12 @@
 # Foodfy
 
-<<<<<<< HEAD
+
 ## Design preview:
 ![Design preview](./public/assets/home.jpg)
 
 ## Mobile
 ![Mobile preview](/public/assets/mobile.jpg)
 
-
-=======
->>>>>>> 6d8f2f5a9b3e1f41857b050339487eca12e00786
 
 
  Neste projeto, foram praticadas as mais variadas técnicas do Front End, irei listar algumas;

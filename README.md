@@ -1,15 +1,14 @@
 # Foodfy
 
-<<<<<<< HEAD
-## Design preview:
-![Design preview](./public/assets/home.jpg)
+
+## Preview:
+![Design preview](./public/assets/preview.gif)
 
 ## Mobile
 ![Mobile preview](/public/assets/mobile.jpg)
 
 
-=======
->>>>>>> 6d8f2f5a9b3e1f41857b050339487eca12e00786
+
 
 
  Neste projeto, foram praticadas as mais variadas técnicas do Front End, irei listar algumas;
@@ -26,7 +25,7 @@
 - A parte mais desafiadora foi recuperar o texto na janela modal de modo dinâmico,
 foram feitas várias tentativas até chegar nesta solução, que recupera o objeto diretamente como outer.HTML
 
-### Preview:
+### Code Preview:
 
 ```javascript
 for (const card of cards) {
@@ -51,6 +50,7 @@ for (const card of cards) {
 - Agora as informações são requisitadas no servidor.
 - Criado uma nova página onde é detalhado as receitas.
 - Retirado a função de modal para interação da página de receitas de forma dinâmica.
+- Adicionado página "not-found", para status 404.
 
 
 - Projeto compatível com vários dispositivos. 

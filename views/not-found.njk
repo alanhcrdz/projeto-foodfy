@@ -1,0 +1,45 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+            <link rel="stylesheet" href="/not-found.css">
+
+{% endblock head %}
+
+{% block content %}
+
+            <div class="container">
+        <header>
+                <nav>
+                    <h2 id="logo">Foodfy</h2>
+                        <ul>
+                        <li><a href="/"><b>Home</b></a></li>
+                        <li><a href="/sobre">Sobre</a></li>
+                        <li><a href="/receitas">Receitas</a></li>
+                    </ul>
+                </nav>
+            </header>
+                
+
+
+        <div class="main-box">
+
+            <div class="text">
+                <h2>Lamentamos, mas não encontramos a receita que deseja...</h2>
+                <p>Error 404 - Not-Found.
+                </p>
+            </div>
+            <!-- text -->
+            <div class="error-image">
+                <img src="/assets/404-chief.svg" alt="chef">
+            </div>
+        </div>
+
+       
+        
+        
+      
+    </div><!--container-->
+
+      
+
+{% endblock content %}

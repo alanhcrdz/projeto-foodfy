@@ -16,15 +16,16 @@ nunjucks.configure("views", {
 
 
 server.get("/", (req, res) => {
-    res.render("index")
+    return res.render("index", {items: recipes_content})
 })
 
+
 server.get("/sobre", (req, res)=>{
-    res.render("sobre")
+    return res.render("sobre")
 })
 
 server.get("/receitas", (req, res) =>{
-    res.render("receitas", {items: recipes_content})
+    return res.render("receitas", {items: recipes_content})
 })
 
 server.get("/receitas/:index", function(req, res){
@@ -48,7 +49,10 @@ server.get("/receitas/:index", function(req, res){
 
 
 
-
+//404
+server.use(function(req, res){
+    return res.status("404").render("not-found")
+})
 
 server.listen(5000, () => {
     console.log('initalizing server...')
